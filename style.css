@@ -66,7 +66,7 @@ h6{
     width: 100%;
 }
 
-#mobile-menu ul{
+#mobile-menu > ul{
     display: flex;
     gap: 40px;
 }
@@ -99,6 +99,14 @@ h6{
 
 .left-submenu, .middle-submenu, .right-submenu, .corner-submenu{
     padding: 40px;
+}
+
+.left-submenu{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.corner-submenu{
+    border-radius: 0px 20px 20px 0px;
 }
 
 .menu-services p{
@@ -239,7 +247,7 @@ h6{
 
 .left-banner h1{
     letter-spacing: -.02em;
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 900;
     line-height: 1.1;
 }
@@ -774,7 +782,7 @@ h6{
     padding: 170px 0px 80px 0px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
 }
@@ -1030,6 +1038,16 @@ h6{
     border-radius: 50%;
     background-color: #8039df;
     padding: 5px 10px;
+    transition: all .2s ease;
+}
+
+.social-accounts a:hover svg path{
+    fill: #8039df;
+}
+
+.social-accounts a:hover{
+    background-color: #fff;
+    color: #8039df;
 }
 
 .right-footer{
@@ -1049,6 +1067,11 @@ h6{
 .right-footer .links ul li{
     padding: 5px 0px;
     font-family: 'myregularfont';
+}
+
+.right-footer .links ul li:hover a{
+    color: #fff;
+    font-weight: 600;
 }
 
 .bottom-footer .container{
