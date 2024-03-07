@@ -1310,6 +1310,27 @@ input[type='submit']{
         margin: 0;
     }
 
+    .right-contact {
+        padding: 15px 0px;
+    }
+
+    .input-inner, .textarea-inner{
+        display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    }
+
+    input, textarea{
+        padding: 5px;
+    }
+
+    input[type='submit']{
+        display: flex;
+        width: max-content;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
     .footer-inner {
         grid-template-columns: 100%;
         gap: 50px;
