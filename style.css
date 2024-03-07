@@ -3,10 +3,10 @@
     src: url('font/Satoshi-Black.ttf');
   }
   
-@font-face {
+/* @font-face {
     font-family: "myregularfont";
     src: url('font/Satoshi-Regular.ttf');
-  }
+  } */
 
 
 body{
@@ -20,9 +20,9 @@ a{
     color: inherit;
 }
 
-p{
+/* p{
     font-family: 'myregularfont';
-}
+} */
 
 ul li{
     padding: 0;margin: 0;
@@ -86,15 +86,20 @@ h6{
 
 .corner-submenu{
     background-color: #ebedef;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .latest-resource{
     font-size: 12px !important;
     color: #1d0254;
     background-color: #fff;
-    padding: 10px 15px !important;
+    padding: 5px 10px !important;
     border-radius: 50px;
     font-weight: 700;
+    width: max-content;
 }
 
 .left-submenu, .middle-submenu, .right-submenu, .corner-submenu{
@@ -105,8 +110,9 @@ h6{
     border-radius: 20px 0px 0px 20px;
 }
 
-.corner-submenu{
-    border-radius: 0px 20px 20px 0px;
+.corner-submenu img{
+    width: 100%;
+    border-radius: 20px;
 }
 
 .menu-services p{
@@ -143,7 +149,7 @@ h6{
 
 .tj-menu-area li a{
     color: #1d0254;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 1.5;
 }
@@ -162,7 +168,7 @@ h6{
     opacity: 1;
     visibility: visible;
     top: 150%;
-    left: -400%;
+    left: -345%;
 }
 
 .tj-menu-area .has-dropdown:hover .fa-caret-down{
@@ -187,7 +193,7 @@ h6{
     opacity: 0;
     visibility: hidden;
     z-index: 9;
-    left: -400%;
+    left: -345%;
     top: 150%;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -261,7 +267,7 @@ h6{
     text-wrap: balance;
     line-height: 1.5;
     color: #1d0254;
-    font-family: 'myregularfont';
+    /* font-family: 'myregularfont'; */
 }
 
 .subscribe{
@@ -302,7 +308,7 @@ h6{
 
 .counter-content h2{
     letter-spacing: -.02em;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 1.3;
 }
@@ -666,7 +672,7 @@ h6{
 
 .read-more{
     color: #1d0254;
-    font-family: 'myregularfont';
+    /* font-family: 'myregularfont'; */
 }
 .read-more:hover{
     color: #8039df;
@@ -794,7 +800,7 @@ h6{
     justify-content: center;
 }
 
-.upper-resources h2{
+.upper-resources h1{
     letter-spacing: -.02em;
     margin-top: 0;
     margin-bottom: 0;
@@ -852,7 +858,7 @@ h6{
       padding: 15px 25px;
       background-color: #FFFFFF;
       margin: 0;
-      font-family: 'myregularfont';
+      /* font-family: 'myregularfont'; */
       font-weight: 500;
       cursor: pointer;
   }
@@ -892,7 +898,7 @@ h6{
 
 .all-posts{
     color: #1d0254;
-    font-family: 'myregularfont';
+    /* font-family: 'myregularfont'; */
 }
 
 .all-posts:hover{
@@ -918,7 +924,7 @@ h6{
     gap: 15px;
 }
 
-.left-blog-detail h4{
+.left-blog-detail h1{
     letter-spacing: -1.2px;
     font-size: 34px;
     font-weight: 800;
@@ -1010,7 +1016,7 @@ h6{
     margin-left: 60px;
     list-style-type: disc;
     color: #1d0254;
-    font-family: 'myregularfont';
+    /* font-family: 'myregularfont'; */
 }
 
 .lower-blog-detail h3{
@@ -1083,7 +1089,7 @@ h6{
 
 .right-footer .links ul li{
     padding: 5px 0px;
-    font-family: 'myregularfont';
+    /* font-family: 'myregularfont'; */
 }
 
 .right-footer .links ul li:hover a{
@@ -1217,7 +1223,7 @@ h6{
 .menu ul .nav__link {
 	font-weight: 600;
 	color: #1d0254;
-    font-family: 'myregularfont';
+    /* font-family: 'myregularfont'; */
 	text-decoration: none;
 }
 
