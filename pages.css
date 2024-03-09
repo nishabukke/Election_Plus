@@ -827,7 +827,7 @@ input[type='submit']{
 
 .footer-inner{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 30% 40% 30%;
     color: #fff;
     padding-bottom: 50px;
     border-bottom: 1px solid #000;
@@ -854,6 +854,14 @@ input[type='submit']{
 .social-accounts a:hover{
     background-color: #fff;
     color: #8039df;
+}
+
+
+.middle-footer img{
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 70%;
+    transition: all .2s linear;
 }
 
 .right-footer{
@@ -894,7 +902,59 @@ input[type='submit']{
     gap: 20px;
 }
 
+.pp-tc a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
 /* footer css end */
+
+
+/* privacy policy css start */
+
+.pp-content{
+    padding: 180px 0px 150px 0px;
+}
+
+.pp-content h1{
+    letter-spacing: -.02em;
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #fff; 
+    text-align: center;
+}
+
+.pp-desc{
+    padding: 120px 0px 80px 0px;
+    max-width: 768px;
+}
+
+.pp-desc p{
+    margin: 10px 0px;
+}
+
+.pp-desc h2 {
+    letter-spacing: -.02em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.pp-desc ul li{
+    margin: 10px 0px;
+    list-style-type: disc;
+    color: #1d0254;
+}
+
+.pp-desc p span{
+    color: #8039df;
+    text-decoration: underline;
+}
+
+/* privacy policy css end */
 
 
 /********** MOBILE HEADER ************/
@@ -1244,7 +1304,7 @@ input[type='submit']{
         flex-direction: column;
     }
     
-    .services-content, .counter-content,.solutions-content, .why-choose-content, .filter-audience, .revenue-goals, .blog-content, .lead-content, .service-feature, .contact-content {
+    .services-content, .counter-content,.solutions-content, .why-choose-content, .filter-audience, .revenue-goals, .blog-content, .lead-content, .service-feature, .contact-content, .pp-content, .pp-desc {
         padding: 60px 30px;
     }
 
@@ -1258,7 +1318,7 @@ input[type='submit']{
         font-size: 20px;
     }
 
-    .solutions-content > h2, .left-why-choose h2, .revenue-goals h2, .blog-content h2, .leads-content h2, .services-content h2, .service-feature h2, .left-contact h2{
+    .solutions-content > h2, .left-why-choose h2, .revenue-goals h2, .blog-content h2, .leads-content h2, .services-content h2, .service-feature h2, .left-contact h2, .pp-desc h2, .pp-content h1{
         font-size: 30px;
     }
 
