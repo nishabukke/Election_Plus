@@ -412,10 +412,11 @@ h6{
     transition: all .3s ease;
     margin-left: -30px;
     padding: 0px 0px 0px 40px;
+    border-left: 7px solid transparent;
 }
 
 .solution.active{
-    border-left: 7px solid #8039df;
+    border-color: #8039df;
 }
 
 /* solutions-content css end */
@@ -792,6 +793,7 @@ h6{
     line-height: 1.2;
 }
 
+
 /* faq content css end */
 
 /* lead content css start */
@@ -1083,7 +1085,8 @@ h6{
 .social a{
     background-color: #8039df;
     color: #fff;
-    padding: 2px 8px;
+    border: 1px solid #8039df;
+    padding: 5px 10px;
     border-radius: 50%;
 }
 
